@@ -1,14 +1,14 @@
-set nocompatible              "We wont latest Vim settings/options
+set nocompatible                 "We wont latest Vim settings/options"
 set laststatus=2
-set noshowmode		            "Do not show mode, we have plugin for this"
+set noshowmode		         "Do not show mode, we have plugin for this"
 
 so ~/.vim/plugins.vim
 
 syntax enable
 
 set backspace=indent,eol,start				"Make backspace behave like any other editor"
-let mapleader = ','					          "The default leader is \, but comma is much better"
-set number 						                "Activate line numbers"
+let mapleader = ','					"The default leader is \, but comma is much better"
+set number 						"Activate line numbers"
 
 
 
@@ -18,7 +18,7 @@ set number 						                "Activate line numbers"
 colorscheme hydrangea
 set t_CO=256
 set guifont=Fira_Code:h15
-set guioptions-=e					                  "We don't want Gui tabs"
+set guioptions-=e					"We don't want Gui tabs"
 
 
 
